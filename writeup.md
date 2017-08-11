@@ -102,7 +102,7 @@ My final model consisted of the following layers:
 | Layer         		|     Description	        									| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   											| 
-| Inception module     		| concatenate[conv1x1+[conv1x1+conv3x3]+[conv1x1+conv5x5]+[max_pool3x3+conv1]; Outputs 32x32x64		|
+| Inception module     		| concatenate[conv1x1+(conv1x1+conv3x3)+(conv1x1+conv5x5)+(max_pool3x3+conv1)]; Outputs 32x32x64		|
 | RELU				|													|
 | Convolution 5x5	      	| 	Outputs 16x16x64 										|
 | Fully connected 		|       Outputs 1024 neurons 										|
