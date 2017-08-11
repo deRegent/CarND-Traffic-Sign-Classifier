@@ -242,8 +242,8 @@ Complete log on dataset accuracy with top-5 probabilities is shown below:
 
 #### Summary on the model certainty
 
-My model showed performance of 70% on the random images which were found on the Internet. Images "Ahead only", "General caution", "No entry", "Priority road", "Speed limit (30km/h)", "Speed limit (60km/h)", "Stop" were classified correctly with very high probabiliy of 90% or above.
-The model could not classify "Keep left" image which was visualized above with index of 3. The unusual shape of traffic sign lead network to a conclusion that it is a "End of all speed and passing limits".
-The network could not identify "Turn left ahead" and "Bumpy road" signs. As we can see, additional text in this images leads to uncertainty of classifier.
+My model showed performance of 70% on the random images which were found on the Internet. Images "Ahead only", "General caution", "No entry", "Priority road", "Speed limit (30km/h)", "Speed limit (60km/h)", "Stop" were classified correctly with the very high probability of 90% or above.
+The model could not classify "Keep left" image which was visualized above with index of 3. The unusual shape of traffic sign leads network to a conclusion that it is a "End of all speed and passing limits".
+The network could not identify "Turn left ahead" and "Bumpy road" signs. As we can see, additional text in the image leads to uncertainty of the classifier.
 
 
