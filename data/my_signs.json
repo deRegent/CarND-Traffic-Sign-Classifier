@@ -1,0 +1,12 @@
+{"array":[
+{"path":"signs/ahead_only.jpg", "class":35},
+{"path":"signs/bumpy_road.jpg","class":22},
+{"path":"signs/general_caution.jpg","class":18},
+{"path":"signs/keep_left.jpg","class":39},
+{"path":"signs/no_entry.jpg","class":17},
+{"path":"signs/priority_road.jpg","class":12},
+{"path":"signs/speed_limit_30.jpg","class":1},
+{"path":"signs/speed_limit_60.jpg","class":3},
+{"path":"signs/stop.jpg","class":14},
+{"path":"signs/turn_left_ahead.jpg","class":34}
+]}
