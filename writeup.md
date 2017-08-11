@@ -170,66 +170,75 @@ The images which may be difficult to classify are #1, #3, #7 and #9. Images #1 a
 Accuracy on my small dataset is 70%
 Complete log on dataset accuracy with top-5 probabilities is shown below:
 
-Correct class of the random "Ahead only" image is 35, prediction is correct:  True
-probability of "Ahead only" is 93.100351
-probability of "Speed limit (70km/h)" is 5.900278
-probability of "General caution" is 0.948107
-probability of "Pedestrians" is 0.026920
-probability of "Traffic signals" is 0.020229
-Correct class of the random "Bumpy road" image is 22, prediction is correct:  False
-probability of "Priority road" is 42.093447
-probability of "No passing" is 29.786175
-probability of "Speed limit (60km/h)" is 24.397101
-probability of "Bicycles crossing" is 2.343925
-probability of "Slippery road" is 1.335996
-Correct class of the random "General caution" image is 18, prediction is correct:  True
-probability of "General caution" is 99.999082
-probability of "Road narrows on the right" is 0.000923
-probability of "Pedestrians" is 0.000003
-probability of "Traffic signals" is 0.000000
-probability of "Bicycles crossing" is 0.000000
-Correct class of the random "Keep left" image is 39, prediction is correct:  False
-probability of "End of all speed and passing limits" is 99.996471
-probability of "Dangerous curve to the right" is 0.002489
-probability of "Right-of-way at the next intersection" is 0.000929
-probability of "End of speed limit (80km/h)" is 0.000101
-probability of "Children crossing" is 0.000005
-Correct class of the random "No entry" image is 17, prediction is correct:  True
-probability of "No entry" is 99.999928
-probability of "No passing" is 0.000067
-probability of "Bumpy road" is 0.000000
-probability of "Turn right ahead" is 0.000000
-probability of "Slippery road" is 0.000000
-Correct class of the random "Priority road" image is 12, prediction is correct:  True
-probability of "Priority road" is 100.000000
-probability of "Roundabout mandatory" is 0.000000
-probability of "No passing" is 0.000000
-probability of "No vehicles" is 0.000000
-probability of "Speed limit (100km/h)" is 0.000000
-Correct class of the random "Speed limit (30km/h)" image is 1, prediction is correct:  True
-probability of "Speed limit (30km/h)" is 99.831980
-probability of "Speed limit (50km/h)" is 0.100625
-probability of "Speed limit (60km/h)" is 0.057590
-probability of "Speed limit (80km/h)" is 0.009063
-probability of "Stop" is 0.000732
-Correct class of the random "Speed limit (60km/h)" image is 3, prediction is correct:  True
-probability of "Speed limit (60km/h)" is 99.998450
-probability of "Speed limit (20km/h)" is 0.000995
-probability of "Speed limit (50km/h)" is 0.000392
-probability of "Speed limit (80km/h)" is 0.000170
-probability of "No passing" is 0.000000
-Correct class of the random "Stop" image is 14, prediction is correct:  True
-probability of "Stop" is 99.993706
-probability of "Speed limit (120km/h)" is 0.006221
-probability of "Speed limit (20km/h)" is 0.000069
-probability of "Speed limit (60km/h)" is 0.000003
-probability of "Speed limit (80km/h)" is 0.000002
-Correct class of the random "Turn left ahead" image is 34, prediction is correct:  False
-probability of "Dangerous curve to the right" is 60.627204
-probability of "Slippery road" is 31.083193
-probability of "Children crossing" is 8.182074
-probability of "Road work" is 0.082017
-probability of "Speed limit (20km/h)" is 0.014404
+1. Correct class of the random "Ahead only" image is 35, prediction is correct:  True
+- probability of "Ahead only" is 93.100351
+- probability of "Speed limit (70km/h)" is 5.900278
+- probability of "General caution" is 0.948107
+- probability of "Pedestrians" is 0.026920
+- probability of "Traffic signals" is 0.020229
+
+2. Correct class of the random "Bumpy road" image is 22, prediction is correct:  False
+- probability of "Priority road" is 42.093447
+- probability of "No passing" is 29.786175
+- probability of "Speed limit (60km/h)" is 24.397101
+- probability of "Bicycles crossing" is 2.343925
+- probability of "Slippery road" is 1.335996
+
+3. Correct class of the random "General caution" image is 18, prediction is correct:  True
+- probability of "General caution" is 99.999082
+- probability of "Road narrows on the right" is 0.000923
+- probability of "Pedestrians" is 0.000003
+- probability of "Traffic signals" is 0.000000
+- probability of "Bicycles crossing" is 0.000000
+
+4. Correct class of the random "Keep left" image is 39, prediction is correct:  False
+- probability of "End of all speed and passing limits" is 99.996471
+- probability of "Dangerous curve to the right" is 0.002489
+- probability of "Right-of-way at the next intersection" is 0.000929
+- probability of "End of speed limit (80km/h)" is 0.000101
+- probability of "Children crossing" is 0.000005
+
+5. Correct class of the random "No entry" image is 17, prediction is correct:  True
+- probability of "No entry" is 99.999928
+- probability of "No passing" is 0.000067
+- probability of "Bumpy road" is 0.000000
+- probability of "Turn right ahead" is 0.000000
+- probability of "Slippery road" is 0.000000
+
+6. Correct class of the random "Priority road" image is 12, prediction is correct:  True
+- probability of "Priority road" is 100.000000
+- probability of "Roundabout mandatory" is 0.000000
+- probability of "No passing" is 0.000000
+- probability of "No vehicles" is 0.000000
+- probability of "Speed limit (100km/h)" is 0.000000
+
+7. Correct class of the random "Speed limit (30km/h)" image is 1, prediction is correct:  True
+- probability of "Speed limit (30km/h)" is 99.831980
+- probability of "Speed limit (50km/h)" is 0.100625
+- probability of "Speed limit (60km/h)" is 0.057590
+- probability of "Speed limit (80km/h)" is 0.009063
+- probability of "Stop" is 0.000732
+
+8. Correct class of the random "Speed limit (60km/h)" image is 3, prediction is correct:  True
+- probability of "Speed limit (60km/h)" is 99.998450
+- probability of "Speed limit (20km/h)" is 0.000995
+- probability of "Speed limit (50km/h)" is 0.000392
+- probability of "Speed limit (80km/h)" is 0.000170
+- probability of "No passing" is 0.000000
+
+9. Correct class of the random "Stop" image is 14, prediction is correct:  True
+- probability of "Stop" is 99.993706
+- probability of "Speed limit (120km/h)" is 0.006221
+- probability of "Speed limit (20km/h)" is 0.000069
+- probability of "Speed limit (60km/h)" is 0.000003
+- probability of "Speed limit (80km/h)" is 0.000002
+
+10. Correct class of the random "Turn left ahead" image is 34, prediction is correct:  False
+- probability of "Dangerous curve to the right" is 60.627204
+- probability of "Slippery road" is 31.083193
+- probability of "Children crossing" is 8.182074
+- probability of "Road work" is 0.082017
+- probability of "Speed limit (20km/h)" is 0.014404
 
 #### Summary on the model certainty
 
